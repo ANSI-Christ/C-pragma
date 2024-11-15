@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-#define OUTMAIN_BEFORE puts("before 1");
+#define OUTMAIN_BEFORE before_1 , puts("before 1");
 #include "outmain.h"
 
-#define OUTMAIN_AFTER puts("after 1");
+#define OUTMAIN_AFTER after_1, puts("after 1");
 #include "outmain.h"
 
 
-#define OUTMAIN_MARK another
-#define OUTMAIN_BEFORE puts("before 2");
-#define OUTMAIN_AFTER puts("after 2");
+
+#define OUTMAIN_BEFORE before_2, puts("before 2");
+#define OUTMAIN_AFTER after_2, puts("after 2");
 #include "outmain.h"
 
 int main(){
