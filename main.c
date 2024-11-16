@@ -1,15 +1,28 @@
 #include <stdio.h>
 
-#define OUTMAIN_BEFORE before_1 , puts("before 1");
+static void before_1(void){
+    puts("before 1");
+}
+#define OUTMAIN_BEFORE before_1
 #include "outmain.h"
 
-#define OUTMAIN_AFTER after_1, puts("after 1");
+void after_1(void){
+    puts("before 1");
+}
+#define OUTMAIN_AFTER after_1
 #include "outmain.h"
 
 
+void before_2(void){
+    puts("before 2");
+}
 
-#define OUTMAIN_BEFORE before_2, puts("before 2");
-#define OUTMAIN_AFTER after_2, puts("after 2");
+static void after_2(void){
+    puts("before 2");
+}
+
+#define OUTMAIN_BEFORE before_2
+#define OUTMAIN_AFTER after_2
 #include "outmain.h"
 
 int main(){

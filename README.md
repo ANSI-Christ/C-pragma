@@ -4,7 +4,6 @@
  Key Defines:
   - OUTMAIN_BEFORE
   - OUTMAIN_AFTER
-  - OUTMAIN_MARK    (0 as default)
   - OUTMAIN_SYNTAX  (if syntax detection is fault, should be defined as path to file with syntax)
 
 
