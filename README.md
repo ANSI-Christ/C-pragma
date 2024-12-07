@@ -1,11 +1,11 @@
-# C outmain
- A С cross-platform solution for running code before and after a main function.
+# C pragma
+ A С cross-platform solution for pragma syntax
 
  Key Defines:
-  - OUTMAIN_BEFORE
-  - OUTMAIN_AFTER
-  - OUTMAIN_SYNTAX  (if syntax detection is fault, should be defined as path to file with syntax)
-
+  - PRAGMA_STARTUP
+  - PRAGMA_ATEXIT
+  - PRAGMA_PACK
+  - PRAGMA_SYNTAX  (if syntax detection is fault, should be defined as path to file with syntax)
 
  To do:
   - detecting compiller syntax
