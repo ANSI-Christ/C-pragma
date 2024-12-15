@@ -7,5 +7,4 @@
   - PRAGMA_PACK
   - PRAGMA_SYNTAX  (if syntax detection is fault, should be defined as path to file with syntax)
 
- To do:
-  - detecting compiller syntax
+Look for usage examples in main.c
