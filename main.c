@@ -34,6 +34,7 @@ struct t_test{
 }
 #include "pragma.h"
 
+
 int main(){
     puts("main");
     printf("sizeof(struct t_test)=%u\n",sizeof(struct t_test));
